@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="June22Automation(failed)">
+    <classes>
+      <class name="com.envision.automation.tests.LaunchBrowserTest">
+        <methods>
+          <include name="loadBrowser"/>
+          <include name="testLaunchBrowser"/>
+          <include name="TearDownBrowser"/>
+          <include name="loadConfiguration"/>
+          <include name="tearDownConfigurations"/>
+        </methods>
+      </class> <!-- com.envision.automation.tests.LaunchBrowserTest -->
+    </classes>
+  </test> <!-- June22Automation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
